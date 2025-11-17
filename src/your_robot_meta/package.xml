@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>your_robot_meta</name>
+  <version>0.0.1</version>
+  <description>A metapackage to bundle all packages for the robot.</description>
+  <maintainer email="poyi@poyi.com">poyi</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>your_package</exec_depend>
+  <exec_depend>your_interfaces</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

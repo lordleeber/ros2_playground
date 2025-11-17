@@ -1,0 +1,4 @@
+your_interfaces:
+  ubuntu: [ros-jazzy-your-interfaces]
+your_package:
+  ubuntu: [ros-jazzy-your-package]
